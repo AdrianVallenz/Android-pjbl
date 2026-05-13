@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276749569308",
+    "project_id": "begitulah-8526f",
+    "storage_bucket": "begitulah-8526f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276749569308:android:ee84b9cd9306fcb79dbed9",
+        "android_client_info": {
+          "package_name": "com.jualan.begitulah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIQXNGXMaqUPMI2gzNq3Q26_ubJXM-Oio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

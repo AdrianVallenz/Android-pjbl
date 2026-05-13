@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Product"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNamaProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Nama product"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorSecondary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Kategori Product"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerKategori"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/edtHargaProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Harga product"
+            android:inputType="number"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorSecondary" />
+
+        <EditText
+            android:id="@+id/edtStokProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Stok product"
+            android:inputType="number"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorSecondary" />
+
+        <Button
+            android:id="@+id/btnSimpanProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Simpan Product" />
+
+    </LinearLayout>
+
+</ScrollView>
